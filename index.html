@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSMbid | Pioneering in Live Mobile Auction!</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/bootstrap5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/font/popins-transfonter/stylesheet.css" rel="stylesheet">
+    <script src="assets/bootstrap5/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+    <div class='top_header container-fluid'>
+        <div class='container'>
+        <div class='row'>
+          <div class='col-md-3'>
+            <a href="https://dev.gsmbid.com/"><svg xmlns="http://www.w3.org/2000/svg" width="131" height="33" viewBox="0 0 131 33" fill="none">
+                <g clip-path="url(#clip0_151_1779)">
+                <path d="M55.1596 0H3.74786C1.67869 0 0 1.69137 0 3.77616V29.2275C0 31.3123 1.67869 33.0037 3.74786 33.0037H55.1633C57.2324 33.0037 58.9111 31.3123 58.9111 29.2275V3.77616C58.9075 1.69137 57.2288 0 55.1596 0ZM18.8232 13.5346H13.0245V11.4939C13.0245 10.207 12.9697 9.40178 12.8602 9.07822C12.7508 8.75465 12.488 8.59287 12.0756 8.59287C11.718 8.59287 11.4735 8.73259 11.3458 9.00836C11.218 9.28412 11.1524 9.99744 11.1524 11.1446V21.9289C11.1524 22.9364 11.218 23.6019 11.3458 23.9218C11.4735 24.2417 11.7326 24.3998 12.1158 24.3998C12.5391 24.3998 12.8237 24.2196 12.977 23.8593C13.1303 23.4989 13.2033 22.7967 13.2033 21.7487V19.083H12.0318V15.6672H18.8232V27.731H15.1776L14.6411 26.1206C14.247 26.8155 13.747 27.3339 13.1449 27.6832C12.5427 28.0289 11.8311 28.2053 11.0137 28.2053C10.0393 28.2053 9.12698 27.9664 8.27668 27.492C7.42639 27.014 6.78046 26.4257 6.33889 25.7235C5.89732 25.0212 5.62362 24.2821 5.51049 23.51C5.40101 22.7378 5.34627 21.5796 5.34627 20.0316V13.3544C5.34627 11.2071 5.4594 9.64813 5.68931 8.67744C5.91921 7.70674 6.57974 6.81694 7.66724 6.00435C8.75474 5.19543 10.1634 4.79098 11.8895 4.79098C13.5901 4.79098 14.9987 5.14396 16.1191 5.84624C17.2394 6.54852 17.9693 7.38318 18.3087 8.35019C18.6481 9.31721 18.8196 10.7218 18.8196 12.5639V13.5346H18.8232ZM33.2819 25.5286C32.9097 26.286 32.1907 26.9221 31.1251 27.4369C30.0595 27.9516 28.8188 28.209 27.4065 28.209C25.8555 28.209 24.5308 27.9112 23.4323 27.3192C22.3339 26.7272 21.615 25.9735 21.2756 25.0579C20.9362 24.1424 20.7647 22.8408 20.7647 21.1568V19.686H26.1511V22.4216C26.1511 23.2636 26.2277 23.8041 26.3774 24.0468C26.5306 24.2858 26.797 24.4071 27.1839 24.4071C27.5707 24.4071 27.8553 24.2527 28.0451 23.9475C28.2349 23.6423 28.3261 23.1901 28.3261 22.5871C28.3261 21.2634 28.1473 20.3993 27.7896 19.9912C27.4211 19.5831 26.516 18.9028 25.0745 17.9505C23.6331 16.9872 22.6769 16.2886 22.2098 15.8547C21.7427 15.4208 21.3522 14.8178 21.0457 14.0494C20.7391 13.2809 20.5859 12.2992 20.5859 11.1079C20.5859 9.38708 20.8048 8.12958 21.2391 7.3317C21.677 6.53749 22.3813 5.91242 23.3557 5.46384C24.3301 5.01526 25.5052 4.79098 26.881 4.79098C28.3881 4.79098 29.6727 5.03733 30.731 5.52635C31.793 6.01538 32.4936 6.63309 32.8403 7.3795C33.1834 8.12591 33.3585 9.39075 33.3585 11.1777V12.0675H27.9721V10.4019C27.9721 9.62607 27.9028 9.12969 27.7641 8.91643C27.6254 8.70318 27.3955 8.59655 27.0744 8.59655C26.724 8.59655 26.4613 8.73994 26.2825 9.02674C26.1037 9.31354 26.0124 9.75109 26.0124 10.332C26.0124 11.0821 26.1146 11.6484 26.3153 12.0271C26.5087 12.4058 27.0525 12.8654 27.9539 13.4022C30.5376 14.9465 32.1615 16.215 32.833 17.2041C33.5045 18.1932 33.8402 19.789 33.8402 21.9914C33.8402 23.5909 33.6541 24.7711 33.2819 25.5286ZM52.1015 27.7347H48.4886L48.4814 12.5639L46.4633 27.7347H42.8687L40.7411 12.9095L40.7338 27.7347H35.6613V5.26162H43.1679C43.3905 6.61471 43.6204 8.2068 43.8577 10.0379L44.6824 15.7554L46.0144 5.26162H52.0322C52.0322 5.26162 53.5612 5.28368 53.5612 6.84635V26.1647C53.5576 26.1684 53.74 27.7347 52.1015 27.7347Z" fill="#004789"></path>
+                <path d="M61.962 0H70.4577C73.1399 0 75.1762 0.209582 76.5557 0.632423C77.9388 1.05159 79.0518 1.90462 79.9021 3.18786C80.7524 4.47109 81.1757 6.53749 81.1757 9.39075C81.1757 11.3174 80.8765 12.6632 80.2744 13.4243C79.6759 14.1854 78.4898 14.77 76.7236 15.1745C78.6942 15.6231 80.0262 16.3658 80.7305 17.4064C81.4312 18.4469 81.7815 20.039 81.7815 22.19V25.2491C81.7815 27.4773 81.5297 29.1319 81.0225 30.2056C80.5152 31.2792 79.7124 32.0146 78.6066 32.408C77.5009 32.8014 75.2346 33 71.8079 33H61.9584V0H61.962ZM70.4759 5.64769V12.9867C70.8408 12.972 71.1218 12.9684 71.3262 12.9684C72.1619 12.9684 72.6947 12.7625 72.9246 12.347C73.1545 11.9315 73.2676 10.7475 73.2676 8.79142C73.2676 7.75822 73.1728 7.03387 72.983 6.62206C72.7932 6.20657 72.5487 5.94552 72.2458 5.83889C71.9429 5.72123 71.3554 5.65872 70.4759 5.64769ZM70.4759 18.1197V27.3523C71.6765 27.3119 72.4429 27.1207 72.7713 26.7824C73.1034 26.4441 73.2676 25.6058 73.2676 24.2748V21.1972C73.2676 19.7853 73.118 18.9286 72.8224 18.6308C72.5268 18.3292 71.7459 18.1601 70.4759 18.1197Z" fill="#004789"></path>
+                <path d="M93.3573 0V33H84.8397V0H93.3573Z" fill="#004789"></path>
+                <path d="M96.7766 0H103.148C107.261 0 110.042 0.191198 111.494 0.569916C112.943 0.948635 114.045 1.57738 114.801 2.44513C115.556 3.31655 116.027 4.28357 116.217 5.34986C116.406 6.41616 116.501 8.51198 116.501 11.6373V23.1938C116.501 26.1573 116.363 28.1355 116.085 29.1356C115.808 30.1357 115.326 30.9152 114.64 31.4778C113.95 32.0403 113.104 32.4338 112.093 32.6581C111.082 32.8823 109.557 32.9963 107.52 32.9963H96.7803V0H96.7766ZM105.29 5.64769V27.356C106.517 27.356 107.272 27.1096 107.557 26.6133C107.841 26.1169 107.98 24.7675 107.98 22.5687V9.74373C107.98 8.24724 107.933 7.29125 107.838 6.86841C107.743 6.44557 107.528 6.13671 107.192 5.94184C106.856 5.74329 106.221 5.64769 105.29 5.64769Z" fill="#004789"></path>
+                <path d="M122.457 2.57014H119.694V0H122.457V2.57014Z" fill="#004789"></path>
+                <path d="M126.606 11.0197V7.80608H127.887C128.332 7.80608 128.635 7.76932 128.796 7.69578C128.953 7.62224 129.033 7.4862 129.033 7.29132C129.033 7.09645 128.964 6.96408 128.825 6.89422C128.686 6.82803 128.372 6.79127 127.887 6.79127H122.65C122.253 6.79127 121.957 6.84274 121.76 6.94202C121.563 7.04129 121.464 7.19205 121.464 7.3906C121.464 7.62224 121.566 7.77667 121.774 7.85756C121.983 7.93845 122.369 7.9789 122.946 7.9789H124.267V11.0123C123.38 11.005 122.716 10.9756 122.271 10.9167C121.826 10.8579 121.373 10.6704 120.906 10.3505C120.439 10.0343 120.089 9.61879 119.851 9.1077C119.614 8.59661 119.497 7.96419 119.497 7.21043C119.497 6.25076 119.662 5.48597 119.986 4.92709C120.311 4.36452 120.771 3.96742 121.358 3.73578C121.946 3.50413 122.782 3.38647 123.866 3.38647H127.019C127.96 3.38647 128.672 3.48207 129.153 3.67327C129.632 3.86447 130.062 4.2726 130.438 4.89767C130.814 5.52274 131.004 6.28018 131.004 7.17366C131.004 8.06347 130.818 8.8209 130.442 9.44965C130.069 10.0784 129.595 10.4976 129.026 10.7071C128.456 10.9167 127.65 11.0197 126.606 11.0197Z" fill="#004789"></path>
+                <path d="M126.902 19.7374H124.183C123.183 19.7374 122.453 19.6859 121.986 19.5866C121.519 19.4874 121.085 19.2704 120.68 18.9358C120.275 18.6049 119.975 18.1784 119.786 17.6599C119.592 17.1415 119.497 16.5422 119.497 15.8693C119.497 15.1155 119.581 14.4794 119.745 13.9573C119.91 13.4352 120.158 13.0271 120.49 12.7403C120.822 12.4498 121.223 12.2439 121.694 12.1226C122.165 11.9976 122.873 11.9387 123.814 11.9387H126.661C127.694 11.9387 128.5 12.0527 129.08 12.277C129.661 12.5013 130.128 12.9057 130.478 13.4904C130.828 14.075 131.004 14.8214 131.004 15.7333C131.004 16.4981 130.891 17.1525 130.664 17.7004C130.438 18.2482 130.142 18.6711 129.781 18.9689C129.42 19.2667 129.044 19.469 128.661 19.5793C128.274 19.6822 127.686 19.7374 126.902 19.7374ZM127.737 16.3289C128.307 16.3289 128.664 16.2995 128.814 16.237C128.964 16.1745 129.037 16.0421 129.037 15.8399C129.037 15.6377 128.964 15.5016 128.814 15.4354C128.664 15.3692 128.307 15.3325 127.737 15.3325H122.727C122.201 15.3325 121.862 15.3656 121.702 15.4354C121.541 15.5016 121.464 15.634 121.464 15.8325C121.464 16.0348 121.537 16.1671 121.683 16.2333C121.829 16.2995 122.139 16.3289 122.621 16.3289H127.737Z" fill="#004789"></path>
+                <path d="M130.799 24.2232L129.745 24.1644C130.164 24.4291 130.478 24.7417 130.686 25.1094C130.894 25.477 131 25.8889 131 26.3558C131 27.2677 130.58 27.9847 129.745 28.5068C130.164 28.7936 130.478 29.1172 130.686 29.4775C130.894 29.8378 131 30.2349 131 30.6762C131 31.2534 130.861 31.7351 130.58 32.1138C130.303 32.4925 129.96 32.7352 129.555 32.8418C129.15 32.9485 128.493 33.0036 127.584 33.0036H119.694V29.6981H126.931C127.88 29.6981 128.467 29.665 128.694 29.6025C128.92 29.5363 129.033 29.3892 129.033 29.1503C129.033 28.9076 128.92 28.7531 128.697 28.6833C128.475 28.6134 127.887 28.5767 126.931 28.5767H119.694V25.2711H126.749C127.836 25.2711 128.489 25.2454 128.708 25.1903C128.927 25.1388 129.033 24.988 129.033 24.749C129.033 24.5983 128.975 24.4696 128.862 24.3593C128.748 24.2526 128.606 24.1938 128.442 24.1828C128.278 24.1718 127.927 24.1644 127.391 24.1644H119.691V20.8589H130.796V24.2232H130.799Z" fill="#004789"></path>
+                </g>
+                <defs>
+                    <clipPath id="clip0_151_1779">
+                        <rect width="131" height="33" fill="white"></rect>
+                    </clipPath>
+                </defs>
+                </svg>
+            </a>
+          </div>
+  
+          <div class='col-md-6'>
+            <form class="d-flex search_box" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+  
+          <div class='col-md-3'>
+            <ul class='top_ul'>
+              <li>Become Seller</li>
+              <li>Login</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+  
+          </div>
+        </div>
+      </div>
+
+    <div class="container-fluid bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light nav_bar_bottom">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class='all_cat'>
+                <i class="fa-solid fa-bars"></i>&nbsp;&nbsp;All Category
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href='#'>Accessories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Bulk Auction</a>
+                  </li>
+      
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Buy Now</a>
+                  </li>
+      
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tablet</a>
+                  </li>
+      
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Unit Auction</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+              </div>
+              <div class='grading_system'>
+                <a href="#">Grading System</a>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class='home_1 container mt-5 mb-5'>
+        <div class='row text-center'>
+            <h3 class='banenr_head'>Pre-Owned Mobiles & Electronics Auction Platform</h3>
+            <div class="login_btns d-flex justify-content-center gap-2">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class='container bulk_auction'>
+          
+        <div class='top_con d-flex justify-content-between align-middle'>
+          <h3 class='top_head'>Bulk Auction</h3>
+          <a href='#' class='view_all_btn'>View All</a>
+        </div>
+
+        <div class='row loop gap-2'>
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+        </div>
+      
+    </div>
+
+    <div class='container bulk_auction mt-5'>
+          
+        <div class='top_con d-flex justify-content-between align-middle'>
+          <h3 class='top_head'>Unit Auction</h3>
+          <a href='#' class='view_all_btn'>View All</a>
+        </div>
+
+        <div class='row loop gap-2'>
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+        </div>
+      
+    </div>
+
+    <div class='container bulk_auction mt-5 mb-5'>
+          
+        <div class='top_con d-flex justify-content-between align-middle'>
+          <h3 class='top_head'>Buy Now</h3>
+          <a href='#' class='view_all_btn'>View All</a>
+        </div>
+
+        <div class='row loop gap-2'>
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+          <div class='post col pt-3 pb-3'>
+            <img src="assets/img/pro-img.jpg" alt="pro_img"/>
+            <div class='desc text-center'>
+              <h4>iPhone 13 PRO Max 256</h4>
+              <p class='price mb-0'>
+                <span class='startBid_txt'>Starting bid:</span> <span class='cur_symbol'>5,000 د.إ</span>
+              </p>
+            </div>
+            <div class="timer d-flex justify-content-between px-3 pt-3">
+                <span>Closes In</span>
+                <p id="demo" class="text-center mb-0"></p>
+            </div>
+          </div>
+
+        </div>
+      
+    </div>
+
+    <!-- Footer Style Start -->
+
+    <div class='container-fluid foo_container bg-white'>
+        <div class='container'>
+            <div class='row foo_row'>
+                <div class='col-md-5'>
+                    <a href="https://dev.gsmbid.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="131" height="33" viewBox="0 0 131 33" fill="none" class="mb-3">
+                        <g clip-path="url(#clip0_151_1779)">
+                        <path d="M55.1596 0H3.74786C1.67869 0 0 1.69137 0 3.77616V29.2275C0 31.3123 1.67869 33.0037 3.74786 33.0037H55.1633C57.2324 33.0037 58.9111 31.3123 58.9111 29.2275V3.77616C58.9075 1.69137 57.2288 0 55.1596 0ZM18.8232 13.5346H13.0245V11.4939C13.0245 10.207 12.9697 9.40178 12.8602 9.07822C12.7508 8.75465 12.488 8.59287 12.0756 8.59287C11.718 8.59287 11.4735 8.73259 11.3458 9.00836C11.218 9.28412 11.1524 9.99744 11.1524 11.1446V21.9289C11.1524 22.9364 11.218 23.6019 11.3458 23.9218C11.4735 24.2417 11.7326 24.3998 12.1158 24.3998C12.5391 24.3998 12.8237 24.2196 12.977 23.8593C13.1303 23.4989 13.2033 22.7967 13.2033 21.7487V19.083H12.0318V15.6672H18.8232V27.731H15.1776L14.6411 26.1206C14.247 26.8155 13.747 27.3339 13.1449 27.6832C12.5427 28.0289 11.8311 28.2053 11.0137 28.2053C10.0393 28.2053 9.12698 27.9664 8.27668 27.492C7.42639 27.014 6.78046 26.4257 6.33889 25.7235C5.89732 25.0212 5.62362 24.2821 5.51049 23.51C5.40101 22.7378 5.34627 21.5796 5.34627 20.0316V13.3544C5.34627 11.2071 5.4594 9.64813 5.68931 8.67744C5.91921 7.70674 6.57974 6.81694 7.66724 6.00435C8.75474 5.19543 10.1634 4.79098 11.8895 4.79098C13.5901 4.79098 14.9987 5.14396 16.1191 5.84624C17.2394 6.54852 17.9693 7.38318 18.3087 8.35019C18.6481 9.31721 18.8196 10.7218 18.8196 12.5639V13.5346H18.8232ZM33.2819 25.5286C32.9097 26.286 32.1907 26.9221 31.1251 27.4369C30.0595 27.9516 28.8188 28.209 27.4065 28.209C25.8555 28.209 24.5308 27.9112 23.4323 27.3192C22.3339 26.7272 21.615 25.9735 21.2756 25.0579C20.9362 24.1424 20.7647 22.8408 20.7647 21.1568V19.686H26.1511V22.4216C26.1511 23.2636 26.2277 23.8041 26.3774 24.0468C26.5306 24.2858 26.797 24.4071 27.1839 24.4071C27.5707 24.4071 27.8553 24.2527 28.0451 23.9475C28.2349 23.6423 28.3261 23.1901 28.3261 22.5871C28.3261 21.2634 28.1473 20.3993 27.7896 19.9912C27.4211 19.5831 26.516 18.9028 25.0745 17.9505C23.6331 16.9872 22.6769 16.2886 22.2098 15.8547C21.7427 15.4208 21.3522 14.8178 21.0457 14.0494C20.7391 13.2809 20.5859 12.2992 20.5859 11.1079C20.5859 9.38708 20.8048 8.12958 21.2391 7.3317C21.677 6.53749 22.3813 5.91242 23.3557 5.46384C24.3301 5.01526 25.5052 4.79098 26.881 4.79098C28.3881 4.79098 29.6727 5.03733 30.731 5.52635C31.793 6.01538 32.4936 6.63309 32.8403 7.3795C33.1834 8.12591 33.3585 9.39075 33.3585 11.1777V12.0675H27.9721V10.4019C27.9721 9.62607 27.9028 9.12969 27.7641 8.91643C27.6254 8.70318 27.3955 8.59655 27.0744 8.59655C26.724 8.59655 26.4613 8.73994 26.2825 9.02674C26.1037 9.31354 26.0124 9.75109 26.0124 10.332C26.0124 11.0821 26.1146 11.6484 26.3153 12.0271C26.5087 12.4058 27.0525 12.8654 27.9539 13.4022C30.5376 14.9465 32.1615 16.215 32.833 17.2041C33.5045 18.1932 33.8402 19.789 33.8402 21.9914C33.8402 23.5909 33.6541 24.7711 33.2819 25.5286ZM52.1015 27.7347H48.4886L48.4814 12.5639L46.4633 27.7347H42.8687L40.7411 12.9095L40.7338 27.7347H35.6613V5.26162H43.1679C43.3905 6.61471 43.6204 8.2068 43.8577 10.0379L44.6824 15.7554L46.0144 5.26162H52.0322C52.0322 5.26162 53.5612 5.28368 53.5612 6.84635V26.1647C53.5576 26.1684 53.74 27.7347 52.1015 27.7347Z" fill="#004789"></path>
+                        <path d="M61.962 0H70.4577C73.1399 0 75.1762 0.209582 76.5557 0.632423C77.9388 1.05159 79.0518 1.90462 79.9021 3.18786C80.7524 4.47109 81.1757 6.53749 81.1757 9.39075C81.1757 11.3174 80.8765 12.6632 80.2744 13.4243C79.6759 14.1854 78.4898 14.77 76.7236 15.1745C78.6942 15.6231 80.0262 16.3658 80.7305 17.4064C81.4312 18.4469 81.7815 20.039 81.7815 22.19V25.2491C81.7815 27.4773 81.5297 29.1319 81.0225 30.2056C80.5152 31.2792 79.7124 32.0146 78.6066 32.408C77.5009 32.8014 75.2346 33 71.8079 33H61.9584V0H61.962ZM70.4759 5.64769V12.9867C70.8408 12.972 71.1218 12.9684 71.3262 12.9684C72.1619 12.9684 72.6947 12.7625 72.9246 12.347C73.1545 11.9315 73.2676 10.7475 73.2676 8.79142C73.2676 7.75822 73.1728 7.03387 72.983 6.62206C72.7932 6.20657 72.5487 5.94552 72.2458 5.83889C71.9429 5.72123 71.3554 5.65872 70.4759 5.64769ZM70.4759 18.1197V27.3523C71.6765 27.3119 72.4429 27.1207 72.7713 26.7824C73.1034 26.4441 73.2676 25.6058 73.2676 24.2748V21.1972C73.2676 19.7853 73.118 18.9286 72.8224 18.6308C72.5268 18.3292 71.7459 18.1601 70.4759 18.1197Z" fill="#004789"></path>
+                        <path d="M93.3573 0V33H84.8397V0H93.3573Z" fill="#004789"></path>
+                        <path d="M96.7766 0H103.148C107.261 0 110.042 0.191198 111.494 0.569916C112.943 0.948635 114.045 1.57738 114.801 2.44513C115.556 3.31655 116.027 4.28357 116.217 5.34986C116.406 6.41616 116.501 8.51198 116.501 11.6373V23.1938C116.501 26.1573 116.363 28.1355 116.085 29.1356C115.808 30.1357 115.326 30.9152 114.64 31.4778C113.95 32.0403 113.104 32.4338 112.093 32.6581C111.082 32.8823 109.557 32.9963 107.52 32.9963H96.7803V0H96.7766ZM105.29 5.64769V27.356C106.517 27.356 107.272 27.1096 107.557 26.6133C107.841 26.1169 107.98 24.7675 107.98 22.5687V9.74373C107.98 8.24724 107.933 7.29125 107.838 6.86841C107.743 6.44557 107.528 6.13671 107.192 5.94184C106.856 5.74329 106.221 5.64769 105.29 5.64769Z" fill="#004789"></path>
+                        <path d="M122.457 2.57014H119.694V0H122.457V2.57014Z" fill="#004789"></path>
+                        <path d="M126.606 11.0197V7.80608H127.887C128.332 7.80608 128.635 7.76932 128.796 7.69578C128.953 7.62224 129.033 7.4862 129.033 7.29132C129.033 7.09645 128.964 6.96408 128.825 6.89422C128.686 6.82803 128.372 6.79127 127.887 6.79127H122.65C122.253 6.79127 121.957 6.84274 121.76 6.94202C121.563 7.04129 121.464 7.19205 121.464 7.3906C121.464 7.62224 121.566 7.77667 121.774 7.85756C121.983 7.93845 122.369 7.9789 122.946 7.9789H124.267V11.0123C123.38 11.005 122.716 10.9756 122.271 10.9167C121.826 10.8579 121.373 10.6704 120.906 10.3505C120.439 10.0343 120.089 9.61879 119.851 9.1077C119.614 8.59661 119.497 7.96419 119.497 7.21043C119.497 6.25076 119.662 5.48597 119.986 4.92709C120.311 4.36452 120.771 3.96742 121.358 3.73578C121.946 3.50413 122.782 3.38647 123.866 3.38647H127.019C127.96 3.38647 128.672 3.48207 129.153 3.67327C129.632 3.86447 130.062 4.2726 130.438 4.89767C130.814 5.52274 131.004 6.28018 131.004 7.17366C131.004 8.06347 130.818 8.8209 130.442 9.44965C130.069 10.0784 129.595 10.4976 129.026 10.7071C128.456 10.9167 127.65 11.0197 126.606 11.0197Z" fill="#004789"></path>
+                        <path d="M126.902 19.7374H124.183C123.183 19.7374 122.453 19.6859 121.986 19.5866C121.519 19.4874 121.085 19.2704 120.68 18.9358C120.275 18.6049 119.975 18.1784 119.786 17.6599C119.592 17.1415 119.497 16.5422 119.497 15.8693C119.497 15.1155 119.581 14.4794 119.745 13.9573C119.91 13.4352 120.158 13.0271 120.49 12.7403C120.822 12.4498 121.223 12.2439 121.694 12.1226C122.165 11.9976 122.873 11.9387 123.814 11.9387H126.661C127.694 11.9387 128.5 12.0527 129.08 12.277C129.661 12.5013 130.128 12.9057 130.478 13.4904C130.828 14.075 131.004 14.8214 131.004 15.7333C131.004 16.4981 130.891 17.1525 130.664 17.7004C130.438 18.2482 130.142 18.6711 129.781 18.9689C129.42 19.2667 129.044 19.469 128.661 19.5793C128.274 19.6822 127.686 19.7374 126.902 19.7374ZM127.737 16.3289C128.307 16.3289 128.664 16.2995 128.814 16.237C128.964 16.1745 129.037 16.0421 129.037 15.8399C129.037 15.6377 128.964 15.5016 128.814 15.4354C128.664 15.3692 128.307 15.3325 127.737 15.3325H122.727C122.201 15.3325 121.862 15.3656 121.702 15.4354C121.541 15.5016 121.464 15.634 121.464 15.8325C121.464 16.0348 121.537 16.1671 121.683 16.2333C121.829 16.2995 122.139 16.3289 122.621 16.3289H127.737Z" fill="#004789"></path>
+                        <path d="M130.799 24.2232L129.745 24.1644C130.164 24.4291 130.478 24.7417 130.686 25.1094C130.894 25.477 131 25.8889 131 26.3558C131 27.2677 130.58 27.9847 129.745 28.5068C130.164 28.7936 130.478 29.1172 130.686 29.4775C130.894 29.8378 131 30.2349 131 30.6762C131 31.2534 130.861 31.7351 130.58 32.1138C130.303 32.4925 129.96 32.7352 129.555 32.8418C129.15 32.9485 128.493 33.0036 127.584 33.0036H119.694V29.6981H126.931C127.88 29.6981 128.467 29.665 128.694 29.6025C128.92 29.5363 129.033 29.3892 129.033 29.1503C129.033 28.9076 128.92 28.7531 128.697 28.6833C128.475 28.6134 127.887 28.5767 126.931 28.5767H119.694V25.2711H126.749C127.836 25.2711 128.489 25.2454 128.708 25.1903C128.927 25.1388 129.033 24.988 129.033 24.749C129.033 24.5983 128.975 24.4696 128.862 24.3593C128.748 24.2526 128.606 24.1938 128.442 24.1828C128.278 24.1718 127.927 24.1644 127.391 24.1644H119.691V20.8589H130.796V24.2232H130.799Z" fill="#004789"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_151_1779">
+                                <rect width="131" height="33" fill="white"></rect>
+                            </clipPath>
+                        </defs>
+                        </svg>
+                    </a>
+                    <p class='foo_txt'>GSMbid is the first company in the world to introduce LIVE AUCTION in the mobile industry and first company in the GCC to bring TIMED AUCTION for mobiles & Accessories for all renowned brands.</p>
+                    <ul class='ul_social'>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+
+                <div class='col-md-2'>
+                    <h4 class='foo_head mb-3'>Quick Link</h4>
+                    <ul class='quick_link_ul'>
+                        <li>About GSMbid</li>
+                        <li>Grading System</li>
+                        <li>FAQs</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+
+                <div class='col-md-5'>
+                    <h4 class='foo_head mb-3'>Our Location</h4>
+                    <iframe title='asdd' class='map_iframe' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28863.456435500808!2d55.304452!3d25.272871!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61f81a21354bc28e!2sGSM%20Bid!5e0!3m2!1sen!2sus!4v1675840886984!5m2!1sen!2sus"></iframe>
+
+                    <ul class='location_details'>
+                        <li><i class="fa-solid fa-location-dot"></i><span>1st Floor, Bahman Building, Naif, Deira, Dubai, United Arab Emirates</span></li>
+                        <li><i class="fa-solid fa-phone"></i><span>+971 429 86622</span></li>
+                        <li><i class="fa-solid fa-envelope"></i><span>+971 429 86622</span></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class='foo_copy'>
+                <p class='mb-0'>GSMbid Auction Hall Co – © 2022 All Rights Reserved | Terms of Use | Privacy Policy | Refund Policy</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's';;
+
+    //   document.getElementById("demo").innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+
+</html>
